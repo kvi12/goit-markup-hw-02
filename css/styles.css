@@ -1,5 +1,5 @@
 body {
-    font-family:  Roboto, "Open Sans" sans-serif;
+     font-family:  Roboto, "Open Sans" sans-serif;
     background-color: #FFFFFF;
     color: #212121;
 }
@@ -23,16 +23,47 @@ body {
 }
 .bit {
     color: #000000;
+}
+    /*-----------header-navigation ------------*/
 
-    /* header-navigation */
-.header-navigation .link {
+.site-nav .link {
     color: #212121;
-}`
-.header-navigation .link:hover,
-.header-navigation .link:focus
- {
-    color: #2196F3}; 
+}
+.site-nav .link:hover {
+    color: #2196F3;
+}
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.header-nav .link {
+    color: #212121;
+}
+.header-nav .link:hover {
+    color: #2196F3;
+}
+.header-nav .link:focus {
+    color: #2196F3;
+}
 
-.section-title {
+
+/* hero */
+.hero {
+    background-color: #2F303A;
+    
+}
+.hero-title {
+    color: #FFFFFF;
+}
+
+/*-----------footer-navigation ------------*/
+.footer-nav .link {
     color: #212121;
+}footer
+
+.footer-nav .link:hover {
+    color: #2196F3;
+}
+
+.footer-nav .link:focus {
+    color: #2196F3;
 }
