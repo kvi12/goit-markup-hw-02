@@ -1,4 +1,5 @@
 body {
+    font-family:  Roboto, "Open Sans" sans-serif;
     background-color: #FFFFFF;
     color: #212121;
 }
@@ -6,8 +7,9 @@ body {
 .list {
     list-style: none;
 }
-a {
+ a { 
     text-decoration: none;
+    color: #757575;
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -15,15 +17,22 @@ a {
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
-.logo {
+.header-logo, 
+footer-logo {
     color: #2196F3;
 }
 .bit {
     color: #000000;
+
+    /* site-nav */
+.site-nav .link {
+    color: #212121;
 }
-site-nav .link:hover {
-    color: #000000;
-}
-link. link:hover {
-    color: #000000;
+.site-nav .link:hover,
+.site-nav .link:focus
+ {
+    color: #2196F3; 
+
+.section-title {
+    color: #212121;
 }
