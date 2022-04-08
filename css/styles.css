@@ -68,7 +68,7 @@ body {
 
 
 /* hero */
-.hero {
+.hero  {
     background-color: var(--hero-color);
     width: 1600px;
     height: 2,6;
@@ -296,7 +296,10 @@ body {
     color: var(--accent-color);
 }
 /* main portfolio */
-
+/* main */
+.hidden {
+    display: none;
+}
 /* button */
 .button {
 
@@ -316,56 +319,164 @@ body {
 
 }
 .exmp-one {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
 }
 .exmp-title-one {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 .exmp-two {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 .exmp-title-two {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 .exmp-three {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 exmp-title-three {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 .exmp-four {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 .exmp-title-four {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 .exmp-five {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 .exmp-title-five {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 .exmp-six {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 .exmp-title-six {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 .exmp-seven {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 .exmp-title-seven {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 exmp-eight {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 .exmp-title-eight {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
 .exmp-nine {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--main-title-color);
 }
 .exmp-title-nine {
-    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
 }
