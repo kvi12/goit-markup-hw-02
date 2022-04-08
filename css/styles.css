@@ -1,7 +1,19 @@
+:root {
+    --header-logo-color: #000000;
+    --header-color: #FFFFFF;
+    --main-title-color: #212121;
+    --second-title-color: #757575;
+    --main-btn-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --footer-logo-color: #FFFFFF;
+    --hero-color: #2F303A;
+    --people-background-color: #F5F4FA;
+}
+
 body {
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #FFFFFF;
-    color: #212121;
+    color: var(--main-title-color);
 }
 
 .list {
@@ -9,7 +21,7 @@ body {
 }
  a { 
     text-decoration: none;
-    color: #757575;
+    color: var(--second-title-color);
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -19,10 +31,10 @@ body {
 
 .header-logo, 
 .footer-logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .bit {
-    color: #000000;
+    color: var(--header-logo-color);
 }
     /* header-navigation */
 
@@ -32,22 +44,22 @@ body {
 }
 
 .site-nav .link {
-    color: #212121;
+    color: var(--main-title-color);
 }
 .site-nav .link:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-nav .link {
-    color: #212121;
+    color: var(--main-title-color);
 }
 .header-nav .link:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .nav-item {
     width: 135px;
@@ -57,7 +69,7 @@ body {
 
 /* hero */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-color);
     width: 1600px;
     height: 2,6;
     
@@ -75,7 +87,7 @@ body {
 }
 .hero-butt {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 /*-----------prop ------------*/
@@ -88,6 +100,7 @@ body {
     line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--main-title-color);   
 }
 .proper-title {
     font-family: 'Roboto';
@@ -97,6 +110,7 @@ body {
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--main-title-color);
 }
 .proper-title-top {
     font-family: 'Roboto';
@@ -105,6 +119,7 @@ body {
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
+    color: var(--second-title-color);
 }
 .propert-title {
     font-family: 'Roboto';
@@ -114,6 +129,7 @@ body {
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--main-title-color);
 }
 .propert-title-middle {
     font-family: 'Roboto';
@@ -122,6 +138,7 @@ body {
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
+    color: var(--second-title-color);
 }
 .propertie-title {
     font-family: 'Roboto';
@@ -131,6 +148,7 @@ body {
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--main-title-color);
 }
 .propertie-title-middle {
     font-family: 'Roboto';
@@ -139,6 +157,7 @@ body {
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
+    color: var(--second-title-color);
 }
 .properties-title {
     font-family: 'Roboto';
@@ -148,6 +167,7 @@ body {
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--main-title-color);
 }
 .properties-title-bottom {
     font-family: 'Roboto';
@@ -156,7 +176,9 @@ body {
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
+    color: var(--second-title-color);
 }
+
 
 /* work */
 .work-title {
@@ -170,6 +192,9 @@ body {
 }
 
 /* people */
+.people {
+    background-color: var(--people-background-color);
+}
 .people-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -178,7 +203,7 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-title-color);
 }
 .people-one {
     font-family: 'Roboto';
@@ -186,7 +211,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
-    color: #212121;
+    color: var(--main-title-color);
 }
 .who-one {
     font-family: 'Roboto';
@@ -194,7 +219,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
-    color: #757575;
+    color: var(--second-title-color);
 }
 .people-two {
     font-family: 'Roboto';
@@ -202,7 +227,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
-    color: #212121;
+    color: var(--main-title-color);
 }
 .who-two {
     font-family: 'Roboto';
@@ -210,7 +235,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
-    color: #757575;
+    color: var(--second-title-color);
 }
 .people-three {
     font-family: 'Roboto';
@@ -218,7 +243,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
-    color: #212121;
+    color: var(--main-title-color);
 }
 .who-three {
     font-family: 'Roboto';
@@ -226,7 +251,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
-    color: #757575;
+    color: var(--second-title-color);
 }
 .people-four {
     font-family: 'Roboto';
@@ -234,7 +259,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
-    color: #212121;
+    color: var(--main-title-color);
 }
 .who-four {
     font-family: 'Roboto';
@@ -242,23 +267,51 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
-    color: #757575;
+    color: var(--second-title-color);
 }
+/* button */
+.pointer {
+    cursor: pointer;
+}
+/* examples */
+
 /*-----------footer-navigation ------------*/
 .footer {
-    background-color: #2F303A;
+    background-color: var(--hero-color);
     color: ;
 }
 .footer-nav .link {
+    font-family: 'Roboto';
+    font-style: normal;
     color: #FFFFFF;
     width: 231px;
     height: 2,8;
 }
 
 .footer-nav .link:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .footer-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+/* main portfolio */
+
+/* button */
+.button {
+
+}
+.button-list {
+
+}
+/* examples */
+
+.examples {
+
+}
+.example-title {
+
+}
+.examples-list {
+
 }
