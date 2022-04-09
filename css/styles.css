@@ -11,9 +11,11 @@
 }
 
 body {
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #FFFFFF;
+     font-family: Roboto,  sans-serif;
+    background-color: var(--header-color);
     color: var(--main-title-color);
+    font-size: 14px;
+    letter-spacing: 0,03em;
 }
 
 .list {
@@ -39,8 +41,7 @@ body {
     /* header-navigation */
 
 .menu-nav {
-    width: 294px;
-    height: 18,3;
+
 }
 
 .site-nav .link {
@@ -62,39 +63,31 @@ body {
     color: var(--accent-color);
 }
 .nav-item {
-    width: 135px;
-    height: 8,4;
+
 }
 
 
 /* hero */
 .hero  {
     background-color: var(--hero-color);
-    width: 1600px;
-    height: 2,6;
-    
 }
 .hero-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--header-color);
 }
 .hero-butt {
-    color: #FFFFFF;
+    color: var(--header-color);
     background-color: var(--accent-color);
 }
 
 /*-----------prop ------------*/
 
 .prop-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1,16;
@@ -103,8 +96,6 @@ body {
     color: var(--main-title-color);   
 }
 .proper-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
@@ -113,8 +104,6 @@ body {
     color: var(--main-title-color);
 }
 .proper-title-top {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
@@ -122,8 +111,6 @@ body {
     color: var(--second-title-color);
 }
 .propert-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
@@ -132,8 +119,6 @@ body {
     color: var(--main-title-color);
 }
 .propert-title-middle {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
@@ -141,8 +126,6 @@ body {
     color: var(--second-title-color);
 }
 .propertie-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
@@ -151,8 +134,6 @@ body {
     color: var(--main-title-color);
 }
 .propertie-title-middle {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
@@ -160,8 +141,6 @@ body {
     color: var(--second-title-color);
 }
 .properties-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
@@ -169,9 +148,6 @@ body {
     text-transform: uppercase;
     color: var(--main-title-color);
 }
-.properties-title-bottom {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
@@ -181,9 +157,6 @@ body {
 
 
 /* work */
-.work-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1,16;
@@ -196,8 +169,6 @@ body {
     background-color: var(--people-background-color);
 }
 .people-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -206,64 +177,48 @@ body {
     color: var(--main-title-color);
 }
 .people-one {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
     color: var(--main-title-color);
 }
 .who-one {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
     color: var(--second-title-color);
 }
 .people-two {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
     color: var(--main-title-color);
 }
 .who-two {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
     color: var(--second-title-color);
 }
 .people-three {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
     color: var(--main-title-color);
 }
 .who-three {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
     color: var(--second-title-color);
 }
 .people-four {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
     color: var(--main-title-color);
 }
 .who-four {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,18;
@@ -281,9 +236,7 @@ body {
     color: ;
 }
 .footer-nav .link {
-    font-family: 'Roboto';
-    font-style: normal;
-    color: #FFFFFF;
+    color: var(--header-color);
     width: 231px;
     height: 2,8;
 }
@@ -300,18 +253,22 @@ body {
 .hidden {
     display: none;
 }
-/* button */
-.button {
-
+/* filters */
+.filters {
+    color: var(--people-background-color);
 }
+.filters:hover {
+    color: var(--accent-color)
+}
+.filters:focus {
+    color: var(--accent-color)
+} 
 .button-list {
 
 }
 /* examples */
 
-.examples {
 
-}
 .example-title {
 
 }
@@ -319,8 +276,6 @@ body {
 
 }
 .exmp-one {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -328,8 +283,6 @@ body {
     color: var(--main-title-color);
 }
 .exmp-title-one {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
@@ -337,8 +290,6 @@ body {
     color:var(--second-title-color);
 }
 .exmp-two {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -346,35 +297,25 @@ body {
     color:var(--main-title-color);
 }
 .exmp-title-two {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
     color:var(--second-title-color);
 }
 .exmp-three {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color:var(--main-title-color);
 }
-exmp-title-three {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.exmp-title-three {
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
     color:var(--second-title-color);
 }
 .exmp-four {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -382,17 +323,12 @@ exmp-title-three {
     color:var(--main-title-color);
 }
 .exmp-title-four {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
     color:var(--second-title-color);
 }
 .exmp-five {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -400,17 +336,12 @@ exmp-title-three {
     color:var(--main-title-color);
 }
 .exmp-title-five {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
     color:var(--second-title-color);
 }
 .exmp-six {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -418,17 +349,12 @@ exmp-title-three {
     color:var(--main-title-color);
 }
 .exmp-title-six {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
     color:var(--second-title-color);
 }
 .exmp-seven {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -436,17 +362,12 @@ exmp-title-three {
     color:var(--main-title-color);
 }
 .exmp-title-seven {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
     color:var(--second-title-color);
 }
 exmp-eight {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -454,17 +375,12 @@ exmp-eight {
     color:var(--main-title-color);
 }
 .exmp-title-eight {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
     color:var(--second-title-color);
 }
 .exmp-nine {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -472,9 +388,6 @@ exmp-eight {
     color:var(--main-title-color);
 }
 .exmp-title-nine {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1,8;
     letter-spacing: 0.03em;
