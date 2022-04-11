@@ -292,14 +292,10 @@ a {
 .filters:focus {
   color: var(--accent-color);
 }
-.button-list {
-}
+
 /* examples */
 
-.example-title {
-}
-.examples-list {
-}
+
 .exmp-one {
   font-weight: 700;
   font-size: 18px;
@@ -387,7 +383,7 @@ a {
 }
 .exmp-title-seven {
   font-size: 16px;
-  line-height: 18;
+  line-height: 1,8;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
