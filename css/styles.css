@@ -49,7 +49,10 @@ a {
   color: var(--main-title-color);
 }
 /* header-navigation */
-
+.site-nav,
+.header-nav  {
+  font-weight: 500, Medium;
+}
 /* hero */
 .hero {
   background-color: var(--hero-color);
@@ -133,8 +136,7 @@ a {
   color: var(--main-title-color);
 }
 .proper-title-top {
-  font-weight: 400;
-  font-size: 14px;
+   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
@@ -148,7 +150,6 @@ a {
   color: var(--main-title-color);
 }
 .propert-title-middle {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -163,7 +164,6 @@ a {
   color: var(--main-title-color);
 }
 .propertie-title-middle {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -196,7 +196,6 @@ a {
   color: var(--main-title-color);
 }
 .who-one {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--second-title-color);
