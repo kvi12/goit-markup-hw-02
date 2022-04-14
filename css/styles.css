@@ -75,23 +75,53 @@ a {
 .link-portfolio {
   color: var(--accent-color);
 }
-.mail {
+.header-mail {
   color: var(--second-title-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.mail:hover {
+.header-mail:hover {
   color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.mail:focus {
+.header-mail:focus {
   color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.telephone {
+.header-telephone {
   color: var(--second-title-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.telephone:hover {
+.header-telephone:hover {
   color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.telephone:focus {
+.header-telephone:focus {
   color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .hero-title {
   font-weight: 900;
