@@ -33,8 +33,7 @@ a {
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
-.header-logo,
-.footer-logo {
+.header-logo {
   font-family: var(--font-addition);
   color: var(--accent-color);
   font-weight: 700;
@@ -49,7 +48,9 @@ a {
   color: var(--main-title-color);
 }
 /* header-navigation */
-
+.site-nav list, header-nav list {
+  font-weight: 500;
+}
 /* hero */
 .hero {
   background-color: var(--hero-color);
@@ -173,6 +174,12 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-title-color);
+}
+.properties-title-bottom {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
 }
 /* people */
 .people {
@@ -303,6 +310,18 @@ a {
 
 .footer-nav-link-tel:focus {
   color: var(--accent-color);
+}
+.footer-logo {
+  font-family: var(--font-addition);
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+}
+.footer-bit {
+  color: var(--footer-logo-color);
+  font-family: var(--font-addition);
+  font-weight: 700;
+  font-size: 26px;
 }
 /* main portfolio */
 /* main */
