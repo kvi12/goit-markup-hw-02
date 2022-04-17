@@ -9,7 +9,7 @@
   --hero-color: #2f303a;
   --people-background-color: #f5f4fa;
   --font-addition: 'Raleway', sans-serif;
-  --footer-tel-mail-color: rgba(255, 255, 255, 0.6)
+  --footer-tel-mail-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -48,7 +48,8 @@ a {
   color: var(--main-title-color);
 }
 /* header-navigation */
-.site-nav list, header-nav list {
+.site-nav list,
+header-nav list {
   font-weight: 500;
 }
 /* hero */
@@ -123,6 +124,7 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+/* hero */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -138,64 +140,21 @@ a {
   padding: 15px 32px;
   border-radius: 4px;
   color: var(--header-color);
-  
   border: var(--header-color);
   cursor: pointer;
 }
 .hero-butt:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-/*-----------prop ------------*/
+/*-----------main qualities ------------*/
 
-.prop-title {
+.qualities-main-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-}
-.proper-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-}
-.proper-title-top {
-   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.propert-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-}
-.propert-title-middle {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.propertie-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-}
-.propertie-title-middle {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
 }
 .properties-title {
   font-weight: 700;
@@ -205,14 +164,16 @@ a {
   text-transform: uppercase;
   color: var(--main-title-color);
 }
-.properties-title-bottom {
+.properties-slogan {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
+
+
 /* people */
-.people {
+.peoples {
   background-color: var(--people-background-color);
 }
 .people-title {
@@ -223,49 +184,18 @@ a {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
-.people-one {
+.peoples {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--main-title-color);
 }
-.who-one {
+.who-is-it {
   font-size: 16px;
   line-height: 1.18;
   color: var(--second-title-color);
 }
-.people-two {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--main-title-color);
-}
-.who-two {
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--second-title-color);
-}
-.people-three {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--main-title-color);
-}
-.who-three {
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--second-title-color);
-}
-.people-four {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--main-title-color);
-}
-.who-four {
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--second-title-color);
+
 }
 /* button */
 
@@ -289,7 +219,6 @@ a {
 .button-filter:focus {
   background: var(--accent-color);
   color: var(--main-btn-color);
-
 }
 .pointer {
   cursor: pointer;
@@ -308,7 +237,7 @@ a {
   color: var(--header-color);
 }
 
-.footer-nav-link-address:hover { 
+.footer-nav-link-address:hover {
   color: var(--accent-color);
 }
 
@@ -371,121 +300,18 @@ a {
 
 /* examples */
 
+.examples {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+.examples-titles {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
 
-.exmp-one {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-one {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-two {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-two {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-three {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-three {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-four {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-four {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-five {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-five {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-six {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-six {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-seven {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-seven {
-  font-size: 16px;
-  line-height: 1,8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-eight {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-eight {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
-.exmp-nine {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-}
-.exmp-title-nine {
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
-}
+
