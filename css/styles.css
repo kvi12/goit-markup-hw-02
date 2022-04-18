@@ -171,7 +171,6 @@ header-nav list {
   color: var(--second-title-color);
 }
 
-
 /* people */
 .peoples {
   background-color: var(--people-background-color);
@@ -196,13 +195,12 @@ header-nav list {
   color: var(--second-title-color);
 }
 
-}
 /* button */
 
 .button-filter {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   color: var(--main-title-color);
   background: var(--people-background-color);
   border: var(--accent-color);
@@ -313,5 +311,3 @@ header-nav list {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
-
-
